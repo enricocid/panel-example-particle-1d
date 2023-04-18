@@ -70,5 +70,5 @@ def create_dashboard():
 if __name__.startswith('bokeh'):
 
     # Create the dashboard and turn into a deployable application
-    istat_geodashboad = create_dashboard()
-    istat_geodashboad.servable()
+    dashboard = create_dashboard()
+    dashboad.servable()
